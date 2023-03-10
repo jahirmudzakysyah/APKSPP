@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+.container{
+    width: 90vh;
+    height: 60vh;
+    border-style: groove;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 8px rgba(0,0,0,0.2);
+    margin: 150px 440px;
+}
+
+.judul h1{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 40px;
+}
+.form{
+    padding: 50px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+  }
